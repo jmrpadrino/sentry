@@ -1,0 +1,194 @@
+body.login {
+    background-image: url('../images/sentry_login-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+#wpwrap{
+    overflow: hidden;
+}
+/* Media Queries for Login Form */
+.login #backtoblog a, .login #nav a{
+    color: #adadad;
+}
+.login #backtoblog a:hover, .login #nav a:hover{
+    color: #e3e3e3;
+}
+.login input[type="text"],.login input[type="password"]{
+    font-size: 18px !important;
+    padding: 8px !important;
+}
+@media screen and ( min-width: 850px ){
+    
+    #login{
+        width: 850px;
+        position: relative;
+        overflow: auto;
+    } 
+    .login form{
+        width: 350px;
+        height: 210px;
+        border-bottom: 80px solid #232323;
+        background: rgba(255, 255, 255);
+        float: right;
+        margin-top: 46px;
+    }
+    .login h1 a {
+        background-image: url('../images/Logo_Sentry_Login_White.png');
+        background-size: 100%;
+        width: 401px;
+        height: 148px;
+        position: absolute;
+        margin-top: 140px;
+    }
+    .login #login_error, .login .message{
+        position: absolute;
+        right: 0px;
+        width: 398px;
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        border-left: 0px;
+        padding: 0px;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .login label {
+        font-size: 14px;
+        color: #2d2d2d;
+        font-weight: 800;
+    }
+    .login input{
+        -webkit-border-radius: 0px;
+    }
+
+    .login input[type="text"],.login input[type="password"]{
+        margin-top: 25px;
+        background-color: #ffffff;
+        border-color:#dddddd;
+    }
+    .login form input[type=checkbox]{
+        background: transparent;
+        border: 2px solid #424242;
+    }
+    .login form .forgetmenot{
+        margin-top: 8px;
+    }
+    .login .button-primary.button-large {
+        width: 120px;
+        float:right;
+        background-color: #FF3C00 !important;
+        color: #ffffff;
+        -webkit-border-radius: 0px;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        text-shadow: none;
+        height: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .login .button-primary:hover {
+        background-color:#FF3C00 !important;
+    }
+
+    .login .button-primary:active {
+        background-color:#FF3C00 !important;
+
+    }
+    .login #nav,.login #backtoblog{
+        position: absolute;
+        font-size: 14px;
+        font-weight: 800;
+        width: 350px;
+        text-align: center;
+        right: 0px;
+    }
+    .login #nav{
+        bottom: 45px;
+    }
+    .login #backtoblog{
+        bottom: 0px;
+    }
+}
+@media screen and ( max-width: 849px ){
+    .login h1 a {
+        background-image: url('../images/Logo-Sentry_white_login_form_responsive.png');
+        background-size: 100%;
+        width: 276px;
+        height: 37px;
+    }
+    .login form{
+        border-bottom: none;
+    }
+    .login #login_error, .login .message{
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        border-left: 0px;
+        padding: 0px;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .login label {
+        font-size: 14px;
+        color: #2d2d2d;
+        font-weight: 800;
+    }
+    .login input{
+        -webkit-border-radius: 0px;
+    }
+
+    .login input[type="text"],.login input[type="password"]{
+        font-size: 20px;
+        margin-top: 25px;
+        background-color: #ffffff;
+        border-color:#dddddd;
+    }
+    .login form input[type=checkbox]{
+        background: transparent;
+        border: 2px solid #424242;
+    }
+    .login .button-primary.button-large {
+        width: 120px;
+        float:right;
+        background-color: #FF3C00 !important;
+        color: #ffffff;
+        -webkit-border-radius: 0px;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        text-shadow: none;
+        height: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .login .button-primary:hover {
+        background-color:#FF3C00 !important;
+    }
+
+    .login .button-primary:active {
+        background-color:#FF3C00 !important;
+
+    }
+    .login #nav,.login #backtoblog{
+        font-size: 14px;
+        font-weight: 800;
+        background: #232323;
+        text-align: center;
+        margin: 0px;
+        padding-top: 15px;
+    }
+    .login #backtoblog{
+         padding-bottom: 15px;
+    }
+}
+.webcreek-info-page-content{
+    font-family: 'Exo', sans-serif;
+}
